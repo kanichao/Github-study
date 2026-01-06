@@ -9,7 +9,6 @@ to get used to using Github
 ## 2026/01/06
 
 <br>
-<br>
 
 ### purpose
 * to get used to Github 
@@ -20,7 +19,7 @@ to get used to using Github
 ### method
 * Asking Gemini
 * Writing for myself
-* Trying to take note in Phychology in English lesson
+* Trying to take note in Psychology in English lesson
 
 ### note
 <br>
@@ -44,7 +43,7 @@ to get used to using Github
 
 #### comment to the reading material
 
-The other day, I saw the post that said "Becoming "man" is easy. It is hard but it is only to get fame and much money and to be active in the various field but how can I become "woman" ? For example, Praising the boring things and the boring stories?"
+The other day, I saw the post that said "Becoming "man" is easy. It is hard but it is only to get fame and much money and to be active in the various field but how can I become "woman" ? To praise the boring things and the boring stories?"
 
 Certainly, I have wanted to be "man", to get wealth and fame while keep doing what I like such as wearing cute clothes and collecting stuffed toy. 
 
@@ -56,6 +55,7 @@ By reading today's reading material, I remenber this, and feel that this is also
 > * comparison thinking is neutral
 > * Existential vacuum
 > * will to power
+> * the Unheard Cry for Meaning: Psychotherapy and Humanism
 
 
 
