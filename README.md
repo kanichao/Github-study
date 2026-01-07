@@ -72,7 +72,7 @@ By reading today's reading material, I remenber this, and feel that this is also
 <br>
 
 ### method
-* taking note in the analyze chemistry class
+* taking note in the analytical chemistry class
 * asking Gemini how to write formula
 <br>
 
@@ -107,5 +107,5 @@ $\text{HA(aq)} \rightleftharpoons \text{H}^+\text{(aq)} + \text{A}^-\text{(aq)}$
 
 ### result
 * too difficult
-* hand-writing is more more more more more easier
-* I shold thank gemini and people who write code of formula 
+* hand-writing is much much much much easier
+* I should thank gemini and people who created these mathmatical notation systems
