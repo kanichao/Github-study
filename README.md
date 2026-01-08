@@ -136,14 +136,26 @@ $\text{HA(aq)} \rightleftharpoons \text{H}^+\text{(aq)} + \text{A}^-\text{(aq)}$
 
 #### gemini
 > 基本コマンド： \vec{A}
+
 > 長い矢印（複数の文字）： \overrightarrow{AB}
 
-#### formula
+#### formula by myself
 
-$ J = \frac{nΔW}{Δt} = \vec{E} ・(-ne\vec{v} = \vec{i} ・ \vec{E} = σ/vec{E} ・　/vec{E} = σE^2 = \frac{i^2}{σ} $
+$$ J = \frac{nΔW}{Δt} = \vec{E} ・(-ne\vec{v} = \vec{i} ・ \vec{E} = σ/vec{E} ・　/vec{E} = σE^2 = \frac{i^2}{σ} $$
 
+#### correct formula by gemini
 
+$$J = \frac{n \Delta W}{\Delta t} = \vec{E} \cdot (-ne\vec{v}) = \vec{i} \cdot \vec{E} = \sigma \vec{E} \cdot \vec{E} = \sigma E^2 = \frac{i^2}{\sigma}$$
 
+#### findings
+
+* Δ: \Delta
+* σ: \sigma
+* ・: \cdot
+
+#### retry
+
+$$\vec{D} = \epsilon \vec{E} \rightleftharpoons \vec{i} = \sigma \vec{E}$$
 
 
 
