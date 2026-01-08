@@ -109,3 +109,45 @@ $\text{HA(aq)} \rightleftharpoons \text{H}^+\text{(aq)} + \text{A}^-\text{(aq)}$
 * too difficult
 * hand-writing is much much much much easier
 * I should thank gemini and people who created these mathmatical notation systems
+
+<br>
+<br>
+
+---
+
+## 20260108
+
+<br>
+
+### purpose
+
+* to get used to writing formula
+
+<br>
+
+### method
+
+* taking note in physics class
+* asking gemini
+
+<br>
+
+### note
+
+#### gemini
+> 基本コマンド： \vec{A}
+> 長い矢印（複数の文字）： \overrightarrow{AB}
+
+#### formula
+
+$ J = \frac{nΔW}{Δt} = \vec{E} ・(-ne\vec{v} = \vec{i} ・ \vec{E} = σ/vec{E} ・　/vec{E} = σE^2 = \frac{i^2}{σ} $
+
+
+
+
+
+
+
+
+
+
