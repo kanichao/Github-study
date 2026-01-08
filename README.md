@@ -151,9 +151,9 @@ $$J = \frac{n \Delta W}{\Delta t} = \vec{E} \cdot (-ne\vec{v}) = \vec{i} \cdot \
 
 | name | how it see | how to write |
 | :--- | :---: | ---: |
-| デルタ | $\Delta$ | \Delta |
-| シグマ | $\sigma$ | \sigma |
-| ・ | $\cdot$ | \cdot |
+| デルタ | $ \Delta $ | \Delta |
+| シグマ | $ \sigma $ | \sigma |
+| ・ | $ \cdot $ | \cdot |
 
 #### retry
 
@@ -161,15 +161,15 @@ $$\vec{D} = \epsilon \vec{E} \rightleftharpoons \vec{i} = \sigma \vec{E}$$
 
 #### correct formula
 
-$$\vec{D} = \epsilon \vec{E} \quad \longleftrightarrow \quad \vec{i} = \sigma \vec{E}$$
+$$ \vec{D} = \epsilon \vec{E} \quad \longleftrightarrow \quad \vec{i} = \sigma \vec{E} $$
 
 #### findings
 
 | name | how it see | how to write |
 | :--- | :---: | ---: |
-| 対応、類似 | $\longleftrightarrow$ | \longleftrightarrow |
-| 同値 | $\iff$ | \iff |
-| 平衡 | $\rightleftharpoons$ | \rightleftharpoons |
+| 対応、類似 | $ \longleftrightarrow $ | \longleftrightarrow |
+| 同値 | $ \iff $ | \iff |
+| 平衡 | $ \rightleftharpoons $ | \rightleftharpoons |
 
 
 
