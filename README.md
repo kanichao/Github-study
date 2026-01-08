@@ -209,8 +209,8 @@ $$
 | 同値 | $\iff$ | `\iff` |
 | 平衡 | $\rightleftharpoons$ | `\rightleftharpoons` |
 
-
-
+#### comment
+なんかうまくいかなかったけど原因がわからないので、もう少しGithubを理解してからやり直したい
 
 
 
