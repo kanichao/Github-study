@@ -141,35 +141,43 @@ $\text{HA(aq)} \rightleftharpoons \text{H}^+\text{(aq)} + \text{A}^-\text{(aq)}$
 
 #### formula by myself
 
-$$ J = \frac{nΔW}{Δt} = \vec{E} ・(-ne\vec{v} = \vec{i} ・ \vec{E} = σ/vec{E} ・　/vec{E} = σE^2 = \frac{i^2}{σ} $$
+$$
+J = \frac{nΔW}{Δt} = \vec{E} ・(-ne\vec{v} = \vec{i} ・ \vec{E} = σ/vec{E} ・　/vec{E} = σE^2 = \frac{i^2}{σ}
+$$
 
 #### correct formula by gemini
 
-$$J = \frac{n \Delta W}{\Delta t} = \vec{E} \cdot (-ne\vec{v}) = \vec{i} \cdot \vec{E} = \sigma \vec{E} \cdot \vec{E} = \sigma E^2 = \frac{i^2}{\sigma}$$
+$$
+J = \frac{n \Delta W}{\Delta t} = \vec{E} \cdot (-ne\vec{v}) = \vec{i} \cdot \vec{E} = \sigma \vec{E} \cdot \vec{E} = \sigma E^2 = \frac{i^2}{\sigma}
+$$
 
 #### findings
 
 | name | how it see | how to write |
 | :--- | :---: | ---: |
-| デルタ | $ \Delta $ | \Delta |
-| シグマ | $ \sigma $ | \sigma |
-| ・ | $ \cdot $ | \cdot |
+| デルタ | $\Delta$ | \Delta |
+| シグマ | $\sigma $ | \sigma |
+| ・ | $\cdot$ | \cdot |
 
 #### retry
 
-$$\vec{D} = \epsilon \vec{E} \rightleftharpoons \vec{i} = \sigma \vec{E}$$
+$$
+\vec{D} = \epsilon \vec{E} \rightleftharpoons \vec{i} = \sigma \vec{E}
+$$
 
 #### correct formula
 
-$$ \vec{D} = \epsilon \vec{E} \quad \longleftrightarrow \quad \vec{i} = \sigma \vec{E} $$
+$$
+\vec{D} = \epsilon \vec{E} \quad \longleftrightarrow \quad \vec{i} = \sigma \vec{E}
+$$
 
 #### findings
 
 | name | how it see | how to write |
 | :--- | :---: | ---: |
-| 対応、類似 | $ \longleftrightarrow $ | \longleftrightarrow |
-| 同値 | $ \iff $ | \iff |
-| 平衡 | $ \rightleftharpoons $ | \rightleftharpoons |
+| 対応、類似 | $\longleftrightarrow$ | \longleftrightarrow |
+| 同値 | $\iff$ | \iff |
+| 平衡 | $\rightleftharpoons$ | \rightleftharpoons |
 
 
 
