@@ -210,7 +210,26 @@ $$
 | 平衡 | $\rightleftharpoons$ | `\rightleftharpoons` |
 
 #### comment
-なんかうまくいかなかったけど原因がわからないので、もう少しGithubを理解してからやり直したい
+うまくいかなかったけど原因がわからないので、もう少しGithubを理解してからやり直したい
+
+<br>
+<br>
+    
+---
+
+## 20260109
+
+<br>
+
+### week summary
+
+$\text{chemistry formula} \rightarrow \text{OK}$
+$\text{physics formula} \rightarrow \text{fault}$
+$\text{taking note in English} \rightarrow \text{OK}$
+
+
+
+
 
 
 
