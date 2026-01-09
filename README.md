@@ -224,7 +224,9 @@ $$
 ### week summary
 
 $\text{chemistry formula} \rightarrow \text{OK}$
+
 $\text{physics formula} \rightarrow \text{fault}$
+
 $\text{taking note in English} \rightarrow \text{OK}$
 
 
