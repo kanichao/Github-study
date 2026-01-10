@@ -310,9 +310,12 @@ Geminiにエンジニア関連の仕事に必要なことについて教えて�
 #### 2. Action Plan for the Future
 エンジニアの求人票（SRE/Backend）から逆算した、今の自分にできること。
 
-* **Python Development:** * 単なる文法習得に留まらず、Django等のフレームワークを用いた「仕組み作り」へ。
-* **Infrastructure Knowledge:** * プログラムが動く土台（Linuxやクラウド環境）への理解。
-* **Team Development Mindset:** * GitHubを通じた「コードレビュー（他者による査読）」に耐えうる、論理的で透明性の高い記述。
+* **Python Development:** 
+    * 単なる文法習得に留まらず、Django等のフレームワークを用いた「仕組み作り」へ。
+* **Infrastructure Knowledge:** 
+    * プログラムが動く土台（Linuxやクラウド環境）への理解。
+* **Team Development Mindset:** 
+    * GitHubを通じた「コードレビュー（他者による査読）」に耐えうる、論理的で透明性の高い記述。
 
 <br>
 
