@@ -1,3 +1,6 @@
+# 20260116
+# Geminiに書いてもらったコードを参考に、日付を参照してファイルを作成・命名・一行目を作成するコードを書いた。
+
 import pathlib
 from datetime import datetime
 
@@ -14,10 +17,9 @@ if test_file.exists():
     test_file.write_text(header + content, encoding="utf-8")
     print(f"success: {test_file.name} was created!")
 
-# もしファイルが「存在しない」ときだけ、新規作成する
+
 if not test_file.exists():
     test_file.write_text("automated generation", encoding="utf-8")
-    # ...（タイトルの挿入処理）...
     print(f"success: create new file! {test_file.name} ")
 else:
     print(f"skip: {test_file.name} already exists.")
