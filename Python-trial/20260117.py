@@ -11,9 +11,18 @@
 # 　ターミナルに入力する"Python..."の部分を"Python Python-trial/20260117.pyにすればできる
 # 結果１
 # 　できなかったのでコードを読み直す
-# 　いったんコードをコミットして、仮説２の検証に移る
+# 　いったんコードをコミットして、実践２に移る
 # 仮説２
 # 　current_dir = pathlib.Path("./2026-01")で位置情報の取得に失敗した？
+# 実践２
+# 　./2026-01を./Python-trialに変えてみる(Python-trial内にファイルができてしまうかも、、)
+# 結果２
+# 　command not foundだったのでgeminiに相談
+# Geminiアドバイス
+# 　実行のための"Python..."のPythonは小文字のpython
+# 　コードに二重動作がある(ファイル作成を指示した後に「ファイルがなければ…」の指示はおかしい)
+# 実践３
+# 　いったんコミットして、プログラムを修正、ターミナルに正しく入力
 
 
 
@@ -23,7 +32,7 @@ from datetime import datetime
 today_str = datetime.now().strftime("%Y%m%d")
 filename = f"{today_str}.md"
 
-current_dir = pathlib.Path("./2026-01")
+current_dir = pathlib.Path("./Python-trial")
 test_file = current_dir / filename
 
 test_file.write_text("automated generation", encoding="utf-8")
