@@ -22,30 +22,42 @@
 # 　実行のための"Python..."のPythonは小文字のpython
 # 　コードに二重動作がある(ファイル作成を指示した後に「ファイルがなければ…」の指示はおかしい)
 # 実践３
-# 　いったんコミットして、プログラムを修正、ターミナルに正しく入力
+# 　いったんコミットして、プログラムをコピペ、ターミナルに正しく入力
+# 結果３
+# 　2026-01の中に20260117.mdが作成された(動機を満たした)
+# 考察
+# 　直接の原因はターミナルへの記入ミス
+# 　コードの二重動作が改善できたのは良かった
+# 実践４
+# 　いったんコミット
+# 　動作結果が反映されたため、20260115/0116のプログラムもPython-trialフォルダに移す
+
 
 
 
 import pathlib
 from datetime import datetime
 
+# 1. 日付からファイル名を決定
 today_str = datetime.now().strftime("%Y%m%d")
 filename = f"{today_str}.md"
 
-current_dir = pathlib.Path("./Python-trial")
-test_file = current_dir / filename
+# 2. パスの指定（動機に基づき、2026-01 を指定）
+# プログラムが Python-trial にあっても、ルートから実行するならこれでOK
+target_dir = pathlib.Path("./2026-01")
+test_file = target_dir / filename
 
-test_file.write_text("automated generation", encoding="utf-8")
-if test_file.exists():
+# 3. 冪等性の確保（存在しない時だけ新規作成）
+if not test_file.exists():
+    # 新規作成プロセス
+    test_file.write_text("automated generation", encoding="utf-8")
+    
+    # 読み込んでヘッダーを付与
     content = test_file.read_text(encoding="utf-8")
     header = f"# {test_file.stem}\n\n"
     test_file.write_text(header + content, encoding="utf-8")
-    print(f"success: {test_file.name} was created!")
-
-
-if not test_file.exists():
-    test_file.write_text("automated generation", encoding="utf-8")
-    print(f"success: create new file! {test_file.name} ")
+    
+    print(f"success: {test_file.name} was created in {target_dir.name}!")
 else:
-    print(f"skip: {test_file.name} already exists.")
-
+    # 既に存在する場合は何もしない
+    print(f"skip: {test_file.name} already exists in {target_dir.name}.")
