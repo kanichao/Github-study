@@ -32,7 +32,7 @@
 ### 🐍 Python trial 
 
 * 日付を参照したファイル作成・命名・一行目の挿入
-  * Practice ver. : [**20260116**](./Python-trial/20260116/setting-title.py) / [**20260117**](./Python-trial/20260117/20260117.py)
+  * Practice ver. : [**20260116**](./Python-trial/filegen-practice/setting-title.py) / [**20260117**](./Python-trial/filegen-practice/20260117.py)
   * Completed ver. : [**20260120**](./filegen.py)
 
 <br>
