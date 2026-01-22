@@ -12,6 +12,7 @@
 
 <br>
 <br>
+<br>
 
 ## Overview
 
@@ -24,32 +25,41 @@
 
 <br>
 <br>
+<br>
 
-## Repository Structure
+## 🐍 Python trial 
 
 <br>
 
-### 🐍 Python trial 
-
-* 日付を参照したファイル作成・命名・一行目の挿入
+### 1. filegen
   * Practice ver. : [**20260116**](./Python-trial/filegen-practice/setting-title.py) / [**20260117**](./Python-trial/filegen-practice/20260117.py)
   * Completed ver. : [**20260120**](./filegen.py)
 
 <br>
 
-### 📝 Index of Daily logs
+### 2. insert-in-file
+  * placefolder practice : [**20260122**](./Python-trial/placefolder/template_engine.py)
 
-#### 2026
+
+
+<br>
+<br>
+<br>
+
+## 📝 Index of Daily logs
+
+### 2026
 
 | Mon | Tue | wed | Thu | Fri | Sut | Sun |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | - | [1/6](./2026-01/20260106.md) | [1/7](./2026-01/20260107.md) | [1/8](./2026-01/20260108.md) | [1/9](./2026-01/20260109.md) | [1/10](./2026-01/20260110.md) | [1/11](./2026-01/20260111.md) |
 | [1/12](./2026-01/20260112.md) | [1/13](./2026-01/20260113.md) | [1/14](./2026-01/20260114.md) | [1/15](./2026-01/20260115.md) | [1/16](./2026-01/20260116.md) | [1/17](./2026-01/20260117.md) | [1/18](./2026-01/20260118.md) |
-| [1/19](./2026-01/20260119.md) | [1/20](./2026-01/20260120.md) | 
+| [1/19](./2026-01/20260119.md) | [1/20](./2026-01/20260120.md) | [1/21](./2026-01/20260121.md) |[1/22](./2026-01/20260122.md) | 
 
 
 <br>
 <br>
+<br>
 
-More to be added at any time
+#### More to be added at any time...
 
