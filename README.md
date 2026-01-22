@@ -48,6 +48,8 @@
 
 ## 📝 Index of Daily logs
 
+<br>
+
 ### 2026
 
 | Mon | Tue | wed | Thu | Fri | Sut | Sun |
