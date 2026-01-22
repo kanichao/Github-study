@@ -1,13 +1,31 @@
 # Geminiにコードを書いてもらってPlacefolderの動作確認をする
-# 結果：
+
+# 結果1：
 # $ python Python-trial/placefolder/template_engine.py
 # Error: Template file not found.
-# 考察：
+
+# 考察1：
 # Python-trial内にplacefolderのフォルダを作ったから？
 # Pathlib-path(".")はPython-trial内のことを指しているはずだから、Pathlib-path("./placefolder")にしたらどうだろう
 # 一回コミットしてやり直す
 
+# 結果2：
+# やっぱりError: Template file not found.だ
 
+# Gemini
+# "./placefolder" ではなく、ルートからの全行程を書く
+# current_dir = pathlib.Path("./Python-trial/placefolder")
+
+# 結果3：
+# できた！
+# README_actual.mdでも[INSERT HERE]を残しているのはなぜだろう
+
+# Gemini
+# なぜ消してしまわず、あえて残しているのか。そこには 「次回の実行」を見据えた意図 があります。
+# 無限追記の実現: 
+# もし [INSERT_HERE] を完全に消してしまうと、次にプログラムを動かしたとき、置換するための「目印」が見つからず、追記ができなくなります。
+# テンプレートの「生命維持」: 
+# ログの末尾に常に目印を再配置することで、生成された README_actual.md は、「それ自体が次回のテンプレートとして機能する」 という性質を持ちます。
 
 
 
@@ -16,7 +34,7 @@ import pathlib
 from datetime import datetime
 
 # 1. パスの定義
-current_dir = pathlib.Path(".")
+current_dir = pathlib.Path("./Python-trial/placefolder")
 template_file = current_dir / "README_template.md"
 output_file = current_dir / "README_actual.md"
 
