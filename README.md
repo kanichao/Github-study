@@ -31,20 +31,20 @@
 
 <br>
 
-### 1. file-generation
+### 1. File-generation
   * Practice ver. : [**20260116**](./Python-trial/filegen-practice/setting-title.py) / [**20260117**](./Python-trial/filegen-practice/20260117.py)
   * Completed ver. : [**20260120**](./filegen.py)
 
 <br>
 
-### 2. insert-in-file
-  * placefolder practice : [**20260122**](./Python-trial/placefolder/template_engine.py)
+### 2. Placefolder
+  * Practice ver. : [**20260122**](./Python-trial/placefolder/template_engine.py)
 
 <br>
 
-### 3. index-search
-  * practice ver. : [**20260124**](./Python-trial/index-search/index-inserter.py)
-  * arranged ver. : [**20260124**](./Python-trial/index-search/arranged_index-inserter.py)
+### 3. Index-search
+  * Practice ver. : [**20260124**](./Python-trial/index-search/index-inserter.py)
+  * Arranged ver. : [**20260124**](./Python-trial/index-search/arranged_index-inserter.py)
 
 
 <br>
