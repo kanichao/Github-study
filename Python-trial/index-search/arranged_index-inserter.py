@@ -37,5 +37,5 @@ def insert_line_after_match(file_path, target_text, new_line):
 insert_line_after_match(
     target_file, 
     "## 現在の時間", 
-    "- {today_str}"
+    f"- {today_str}"
 )
