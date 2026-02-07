@@ -54,7 +54,7 @@
 <br>
 
 
-## Daily Logs
+ [<!-- LOG_START -->] 
 
 
 <br>
