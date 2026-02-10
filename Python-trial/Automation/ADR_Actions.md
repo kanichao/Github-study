@@ -11,7 +11,7 @@ Dailylog作成・READMEへのリンク追加を行う[20260208.py](./20260208-03
 
 ## ＜一回目＞
 
-   * Geminiに提案されたコードを打ち込み、Pythonファイルの[update_log.py](.../update_log.py)と
+   * Geminiに提案されたコードを打ち込み、Pythonファイルの[update_log.py](Github-study/update_log.py)と
      YAMLファイルの[daily_log.yml](.../.github/workflows/daily_log.yml)を作成
      * このとき、Geminiのコードをコピペするとanchor判定に失敗する事象があったことから、
        Geminiのコードの **anchor = ""** の "" の部分を **＜!-- LOG_START --＞** (表示が消えてしまわないよう＜＞は全角)に変更した。
