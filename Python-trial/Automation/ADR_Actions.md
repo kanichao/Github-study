@@ -2,7 +2,7 @@
 
 **＜概要＞** 
 
-Dailylog作成・READMEへのリンク追加を行う[20260208.py](../Python-trial/Automation/20260228-03.py)をGitHub Actionsを用いて自動化する。
+Dailylog作成・READMEへのリンク追加を行う[20260208.py](../Python-trial/Automation/20260208-03.py)をGitHub Actionsを用いて自動化する。
 
 <br>
 <br>
