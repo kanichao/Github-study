@@ -32,7 +32,7 @@ else:
 # --- 4. README へのリンク挿入 ---
 readme_path = BASE_DIR / "README.md"
 # ADRで修正した全角のアンカーを使用
-anchor = "＜!-- LOG_START --＞"
+anchor = "<!-- LOG_START -->"
 new_link = f"* [{today_str}](./{dir_name}/{today_str}.md)"
 
 if readme_path.exists():
