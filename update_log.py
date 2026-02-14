@@ -6,6 +6,9 @@ from datetime import datetime, timedelta, timezone
 JST = timezone(timedelta(hours=+9), 'JST')
 today = datetime.now(JST)
 
+print(f"DEBUG: Current Script: {pathlib.Path(__file__).resolve()}")
+print(f"DEBUG: Calculated Root: {BASE_DIR.resolve()}")
+
 today_str = today.strftime("%Y%m%d")
 dir_name = today.strftime("%Y-%m")
 filename = f"{today_str}.md"
@@ -14,7 +17,7 @@ filename = f"{today_str}.md"
 # スクリプトの場所が深くても、常にリポジトリのルートを起点にする
 # .resolve().parents[0] はこのファイルがあるフォルダ (Automation)
 # .resolve().parents[2] でリポジトリのルート (Github-study) に到達
-BASE_DIR = pathlib.Path(__file__).resolve().parents[2]
+BASE_DIR = pathlib.Path(__file__).resolve().parents[1]
 
 # --- 3. 日記ファイルの作成 ---
 target_dir = BASE_DIR / dir_name
